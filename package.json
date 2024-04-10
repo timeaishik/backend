@@ -2,14 +2,19 @@
   "name": "revised",
   "version": "1.0.0",
   "description": "backend serries reveised",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js "
   },
   "keywords": [
     "javascript",
     "mongodb"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
 }
